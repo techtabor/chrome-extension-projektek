@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Resistor Calculator</title>
+</head>
+<body>
+	<table width="400" height="500">
+		<tbody>
+			<tr>
+				<td style="font-weight: bold;" align="center">First Band</td>
+				<td style="font-weight: bold;" align="center">Second Band</td>
+				<td style="font-weight: bold;" align="center">Multiplier</td>
+				<td style="font-weight: bold;" align="center">Tolerance</td>
+			</tr>
+			<tr>
+				<td id="td1" bgcolor='black'>0</td>
+				<td id="td2" bgcolor='black'>0</td>
+				<td id="td3" bgcolor='black'>1</td>
+				<td bgcolor='black'></td>
+			</tr>
+			<tr>
+				<td bordercolor=red id="td4" bgcolor='brown' style="color:brown">1</td>
+				<td id="td5" bgcolor='brown' style="color:brown">1</td>
+				<td id="td6" bgcolor='brown' style="color:brown">10</td>
+				<td id="td7" bgcolor='brown' style="color:brown">1</td>
+			</tr>
+			<tr>
+				<td bgcolor='red'id="td8" style="color:red">2</td>
+				<td bgcolor='red'id="td9" style="color:red">2</td>
+				<td bgcolor='red'id="td10" style="color:red">100</td>
+				<td bgcolor='red'id="td11" style="color:red">2</td>
+			</tr>
+			
+			<tr>
+				<td bgcolor='orange'id="td12" style="color:orange">3</td>
+				<td bgcolor='orange'id="td13" style="color:orange">3</td>
+				<td bgcolor='orange'id="td14" style="color:orange">1000</td>
+				<td bgcolor='orange'></td>
+			</tr>
+			
+			<tr>
+				<td bgcolor='yellow'id="td15" style="color:yellow">4</td>
+				<td bgcolor='yellow'id="td16" style="color:yellow">4</td>
+				<td bgcolor='yellow'id="td17" style="color:yellow">10000</td>
+				<td bgcolor='yellow'></td>
+			</tr>
+			
+			<tr>
+				<td bgcolor='green'id="td18" style="color:green">5</td>
+				<td bgcolor='green'id="td19" style="color:green">5</td>
+				<td bgcolor='green'id="td20" style="color:green">100000</td>
+				<td bgcolor='green'></td>
+			</tr>
+			
+			<tr>
+				<td bgcolor='blue'id="td21" style="color:blue">6</td>
+				<td bgcolor='blue'id="td22" style="color:blue">6</td>
+				<td bgcolor='blue'id="td23" style="color:blue">1000000</td>
+				<td bgcolor='blue'></td>
+			</tr>
+			
+			<tr>
+				<td bgcolor='purple'id="td24" style="color:purple">7</td>
+				<td bgcolor='purple'id="td25" style="color:purple">7</td>
+				<td bgcolor='purple'id="td26" style="color:purple">10000000</td>
+				<td bgcolor='purple'></td>
+			</tr>
+			
+			<tr>
+				<td bgcolor='gray'id="td27" style="color:gray">8</td>
+				<td bgcolor='gray'id="td28" style="color:gray">8</td>
+				<td bgcolor='gray'id="td29" style="color:gray">100000000</td>
+				<td bgcolor='gray'></td>
+			</tr>
+			
+			<tr>
+				<td bgcolor='white'id="td30" style="color:white">9</td>
+				<td bgcolor='white'id="td31" style="color:white">9</td>
+				<td bgcolor='white'id="td32" style="color:white">1000000000</td>
+				<td bgcolor='white'></td>
+			</tr>
+			
+			<tr>
+				<td bgcolor='gold'></td>
+				<td bgcolor='gold'></td>
+				<td bgcolor='gold'id="td33" style="color:gold">0.1</td>
+				<td bgcolor='gold'></td>
+			</tr>
+			
+			<tr>
+				<td bgcolor='silver'></td>
+				<td bgcolor='silver'></td>
+				<td bgcolor='silver'id="td34" style="color:silver">0.01</td>
+				<td bgcolor='silver'></td>
+			</tr>
+		</tbody>
+	</table>
+	<div style="display: flex; justify-content: center;">
+		<input id = "input" type="number" placeholder="Add value in Ohm"></input>
+		<button id = "gomb">Submit!</button>
+	</div>
+	<table>
+	<tbody>
+		<tr>
+			<td style="font-weight: bold;">First Band: </td>
+			<td id="first"></td>
+		</tr>
+		<tr>
+			<td style="font-weight: bold;">Second Band: </td>
+			<td id="second"></td>
+		</tr>
+		<tr>
+			<td style="font-weight: bold;">Multipler: </td>
+			<td id="multi"></td>
+		</tr>
+	</tbody>
+	</table>
+    <script src="content_script.js"></script>
+</body>
+</html>

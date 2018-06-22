@@ -1,0 +1,20 @@
+{
+  "name": "Youtube Music Downloader",
+  "description": "Youtube Music Downloader",
+  "version": "1.0",
+  "background": {
+    "scripts": ["background.js", "content_script.js"],
+    "persistent": false
+  },
+    "permissions": [
+    "tabs",
+    "background",
+    "http://*/*",
+    "https://*/*",
+        "<all_urls>"
+        ],    
+  "browser_action": {
+      "default_icon": "icon_128.png"
+  },
+  "manifest_version": 2
+} 

@@ -1,0 +1,19 @@
+  html, body{
+    background-color: #341F49;
+    width: 600px;
+    height: 300px;
+    color:white;
+    overflow-y: auto;
+  }
+  button {
+    height: 30px;
+    width: 30px;
+    outline: none;
+  }
+  td{
+    vertical-align: middle;
+    padding: 10px;
+    border-bottom: 3px solid black;
+
+  }
+  

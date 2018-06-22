@@ -1,0 +1,29 @@
+{
+	"name": "Bookmark this tab",
+	"description": "Quickly bookmark tabs.",
+	"version": "1.0",
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": true
+	},
+	"commands": {
+		"add_bookmark_shortcut": {
+			"suggested_key": {
+				"default": "Ctrl+B"
+			},
+		"description": "Add bookmark"
+		}
+	},
+	"browser_action": {
+	},
+	"manifest_version": 2,
+	"permissions": [
+		"contextMenus",
+		"bookmarks",
+		"tabs"
+	],
+	"icons": {
+		"16": "16px_icon.png"
+	},
+	"options_page": "options.html"
+} 
